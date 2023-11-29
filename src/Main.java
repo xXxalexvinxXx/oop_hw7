@@ -3,7 +3,7 @@ import Controller.Calculator;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] arg){
+    public static void main(String[] args){
         Calculator calculator = new Calculator();
         Scanner in = new Scanner(System.in);
         System.out.println("Введите оператор: ");
@@ -16,6 +16,6 @@ public class Main {
 
         double answer = calculator.calculate(operator, operand1, operand2);
 
-        System.out.println("Результат" + answer);
+        System.out.println("Результат: " + answer);
     }
 }
