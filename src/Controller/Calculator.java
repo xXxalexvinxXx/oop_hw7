@@ -20,8 +20,6 @@ public class Calculator {
         if (operation == null){
             throw new IllegalArgumentException("Неизвестный оператор");
         }
-        String text = String.valueOf(operand1)+operator+String.valueOf(operand2) +"="+ String.valueOf(operation.execute(operand1,operand2));
-        Log.getLogger(Level.INFO,text);
-        return operation.execute(operand1, operand2);
+      return operation.execute(operand1, operand2);
     }
 }

@@ -45,27 +45,3 @@ public class Main {
         System.out.println("Результат: " + answer);
     }
 }
-
-//public class Log {
-//    private static final Logger logger = Logger.getLogger("MyLog");
-//
-//    public static void iniciarLog() throws IOException {
-//        FileHandler fh;
-//
-//        try {
-////          fh = new FileHandler(System.getProperty("user.home")+System.getProperty("file.separator")+"TorrentDownloader.log");
-//            fh = new FileHandler("%h/TorrentDownloader.log");
-//            logger.addHandler(fh);
-//            SimpleFormatter formatter = new SimpleFormatter();
-//            fh.setFormatter(formatter);
-//
-//            logger.info("Se inició el log");
-//        } catch (SecurityException | IOException e) {
-//            logger.severe("Error al crear el log");
-//        }
-//    }
-//
-//    public static Logger getLogger() {
-//        return logger;
-//    }
-//}
